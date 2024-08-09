@@ -136,7 +136,7 @@ body{
     vertical-align: middle;
 }
 .backgroundColor{
-    background: linear-gradient(90deg, rgba(25,189,241,1) 26%, rgba(21,158,229,1) 49%, rgba(15,162,222,1) 50%, rgba(5,122,209,1) 86%);
+    background: linear-gradient(90deg, rgba(22,115,233,1) 0%, rgba(22,111,233,1) 26%, rgba(43,85,230,1) 50%, rgba(7,38,148,1) 86%);
 }
 @media screen and (max-width: 768px){
     .wishlistbtn{
