@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.navContainer{
+    display: flex;
+}
+
+.dashboard{
+    width: 270px !important;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media screen and (min-width: 992px){
+    .dashboard{
+        transform: none !important;
+        visibility:visible  !important;
+    }
+    .navbarHeadingTranslate{
+        transform: translateX(300px);
+    }
+
+    .dashBoardBtn{
+        display: none;
+    }
+    .overallContentContainer{
+        padding-left: 18rem !important;
+    }
+    
+    .cardsContainer{
+        padding-bottom: 12rem;
+        padding-top: 5rem;
+        margin-top: -3rem;
+        margin-left: -1rem;
+    }
+    .chartsContainer{
+        transform: translateY(-120px);
+    }
+    .whishlistContainer{
+        transform: translateY(-50px);
+    }
+    .footer{
+        
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 0 5rem;
+        gap: 5rem;
+    }
+}
+.cardsContainer{
+    padding-top: 5rem;
+    margin-top: -3rem;
+    margin-left: -1.5rem;
+}
+
+.dashboardIcon{
+    border-radius: 50%;
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+}
+.dashboardUpperCardCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+#dashboardChart{
+    background-color: rgb(245, 40, 74);
+}
+#dashboardChart2{
+    background-color: orangered;
+}
+#dashboardUser{
+    background-color: rgb(60, 193, 230);
+}
+#dashboardModular{
+    background-color: rgb(243, 213, 64);
+}
+.dashUpperCards{
+    width: 25rem;
+    margin-left: 5px;
+}
+@media  screen and (max-width: 768px){
+.dashboardUpperCardCont{
+    flex-direction: column;
+}
+.dashUpperCards{
+    width: 32rem;
+   
+}
+}
+@media  screen and (max-width: 540px){
+
+    .dashUpperCards{
+        width: 27rem;
+       
+    }
+    }
+    @media  screen and (max-width: 440px){
+
+        .dashUpperCards{
+            width: 25rem;
+           
+        }
+    }
+    @media  screen and (max-width: 439px){
+
+        .dashUpperCards{
+            width: 20rem;
+           
+        }
+    }
+/* 3rd Container */
+    .table-striped-columns th,
+.table-striped-columns td {
+    text-align: center;
+    vertical-align: middle;
+}
+.backgroundColor{
+    background: linear-gradient(90deg, rgba(25,189,241,1) 26%, rgba(21,158,229,1) 49%, rgba(15,162,222,1) 50%, rgba(5,122,209,1) 86%);
+}
+@media screen and (max-width: 768px){
+    .wishlistbtn{
+        padding: 5px 10px;
+    }
+    .wishListIcon{
+        padding: 3px;
+    }
+
+}
+.tableIconparror{
+    color: rgb(19, 227, 19);
+}
+.tableIconOrange{
+    color: orangered;
+}
+.tableBtn{
+    transition: .3s all ease;
+}
+.tableBtn:hover{
+    transform: translateY(-2px);
+}
+.chart-container {
+    background-color: #230978dc;
+    padding: 20px;
+    border-radius: 10px;
+}
+.secChart-container{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.footerLinks a{
+    text-decoration: none;
+    color: rgb(49, 48, 48)
+}
