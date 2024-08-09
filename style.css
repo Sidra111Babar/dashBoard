@@ -60,9 +60,12 @@ body{
 .cardsContainer{
     padding-top: 5rem;
     margin-top: -3rem;
+    padding-bottom: 12rem;
     margin-left: -1.5rem;
 }
-
+.chartsContainer{
+    transform: translateY(-100px);
+}
 .dashboardIcon{
     border-radius: 50%;
     color: white;
