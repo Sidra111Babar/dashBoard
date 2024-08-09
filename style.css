@@ -66,6 +66,9 @@ body{
 .chartsContainer{
     transform: translateY(-100px);
 }
+.whishlistContainer{
+        transform: translateY(-65px);
+    }
 .dashboardIcon{
     border-radius: 50%;
     color: white;
